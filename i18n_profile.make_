@@ -58,4 +58,16 @@ core = 7.x
  projects[token][download][type] = "git"
  projects[token][download][url] = "http://drupalcode.org/project/token.git"
  projects[token][download][branch] = "7.x-1.x"
+ 
+ 
+ 
+ projects[admin_menu][type] = "module"
+ projects[admin_menu][download][type] = "git"
+ projects[admin_menu][download][url] = "http://drupalcode.org/project/admin_menu.git"
+ projects[admin_menu][download][branch] = "master"
+ 
+ projects[devel][type] = "module"
+ projects[devel][download][type] = "git"
+ projects[devel][download][url] = "http://drupalcode.org/project/devel.git"
+ projects[devel][download][branch] = "7.x-1.x"
 

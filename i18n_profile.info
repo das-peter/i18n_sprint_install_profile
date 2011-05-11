@@ -1,4 +1,9 @@
+
+;###################################################################
+; Use a command like this to install this profile:
 ; drush si i18n_profile --db-url=mysql://sprint:sprint@localhost/i18n_entity --clean-url -y
+;###################################################################
+
 name = i18n_profile
 description = Install with commonly used features pre-configured.
 version = VERSION
@@ -27,6 +32,7 @@ dependencies[] = rdf
 
 files[] = i18n_profile.profile
 
+dependencies[] = translation
 dependencies[] = locale
 dependencies[] = token
 dependencies[] = variable
@@ -36,3 +42,6 @@ dependencies[] = title
 dependencies[] = entity
 dependencies[] = entity_translation
 dependencies[] = pathauto
+
+dependencies[] = admin_menu
+dependencies[] = devel
