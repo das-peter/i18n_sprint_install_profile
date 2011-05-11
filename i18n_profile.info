@@ -1,0 +1,38 @@
+; drush si i18n_profile --db-url=mysql://sprint:sprint@localhost/i18n_entity --clean-url -y
+name = i18n_profile
+description = Install with commonly used features pre-configured.
+version = VERSION
+core = 7.x
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+; dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+files[] = i18n_profile.profile
+
+dependencies[] = locale
+dependencies[] = token
+dependencies[] = variable
+
+dependencies[] = i18n
+dependencies[] = title
+dependencies[] = entity
+dependencies[] = entity_translation
+dependencies[] = pathauto

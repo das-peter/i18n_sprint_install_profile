@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function i18n_profile_install() {
+  // Trigger default install first.
+  require_once dirname(__FILE__) . '/../standard/standard.install';
+  standard_install();
+}
