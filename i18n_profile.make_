@@ -77,7 +77,7 @@ core = 7.x
  projects[views][type] = "module"
  projects[views][download][type] = "git"
  projects[views][download][url] = "http://drupalcode.org/project/views.git"
- projects[views][download][branch] = "7.x-1.x"
+ projects[views][download][branch] = "7.x-3.x"
  
  projects[rules][type] = "module"
  projects[rules][download][type] = "git"
