@@ -20,7 +20,7 @@ core = 7.x
  projects[i18n_profile][type] = "profile"
  projects[i18n_profile][download][type] = "git"
  projects[i18n_profile][download][url] = "git://github.com/das-peter/i18n_sprint_install_profile.git"
- projects[i18n_profile][download][branch] = "master"
+ projects[i18n_profile][download][branch] = "i18n_commerce"
 
 ; Modules
 ; --------
@@ -59,8 +59,6 @@ core = 7.x
  projects[token][download][url] = "http://drupalcode.org/project/token.git"
  projects[token][download][branch] = "7.x-1.x"
  
- 
- 
  projects[admin_menu][type] = "module"
  projects[admin_menu][download][type] = "git"
  projects[admin_menu][download][url] = "http://drupalcode.org/project/admin_menu.git"
@@ -71,3 +69,27 @@ core = 7.x
  projects[devel][download][url] = "http://drupalcode.org/project/devel.git"
  projects[devel][download][branch] = "7.x-1.x"
 
+ projects[commerce][type] = "module"
+ projects[commerce][download][type] = "git"
+ projects[commerce][download][url] = "http://drupalcode.org/project/commerce.git"
+ projects[commerce][download][branch] = "7.x-1.x"
+ 
+ projects[views][type] = "module"
+ projects[views][download][type] = "git"
+ projects[views][download][url] = "http://drupalcode.org/project/views.git"
+ projects[views][download][branch] = "7.x-1.x"
+ 
+ projects[rules][type] = "module"
+ projects[rules][download][type] = "git"
+ projects[rules][download][url] = "http://drupalcode.org/project/rules.git"
+ projects[rules][download][branch] = "7.x-1.x"
+ 
+ projects[addressfield][type] = "module"
+ projects[addressfield][download][type] = "git"
+ projects[addressfield][download][url] = "http://drupalcode.org/project/addressfield.git"
+ projects[addressfield][download][branch] = "7.x-1.x"
+ 
+ projects[ctools][type] = "module"
+ projects[ctools][download][type] = "git"
+ projects[ctools][download][url] = "http://drupalcode.org/project/ctools.git"
+ projects[ctools][download][branch] = "7.x-1.x"
