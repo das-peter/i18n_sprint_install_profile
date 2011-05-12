@@ -82,7 +82,7 @@ core = 7.x
  projects[rules][type] = "module"
  projects[rules][download][type] = "git"
  projects[rules][download][url] = "http://drupalcode.org/project/rules.git"
- projects[rules][download][branch] = "7.x-1.x"
+ projects[rules][download][branch] = "7.x-2.x"
  
  projects[addressfield][type] = "module"
  projects[addressfield][download][type] = "git"
