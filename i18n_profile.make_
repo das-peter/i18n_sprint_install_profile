@@ -20,7 +20,7 @@ core = 7.x
  projects[i18n_profile][type] = "profile"
  projects[i18n_profile][download][type] = "git"
  projects[i18n_profile][download][url] = "git://github.com/das-peter/i18n_sprint_install_profile.git"
- projects[i18n_profile][download][branch] = "master"
+ projects[i18n_profile][download][branch] = "i18n_taxonomy"
 
 ; Modules
 ; --------
@@ -33,33 +33,6 @@ core = 7.x
  projects[variable][download][type] = "git"
  projects[variable][download][url] = "http://drupalcode.org/project/variable.git"
  projects[variable][download][branch] = "7.x-1.x"
- 
- projects[title][type] = "module"
- projects[title][download][type] = "git"
- projects[title][download][url] = "http://drupalcode.org/project/title.git"
- projects[title][download][branch] = "7.x-1.x"
- 
- projects[entity][type] = "module"
- projects[entity][download][type] = "git"
- projects[entity][download][url] = "http://drupalcode.org/project/entity.git"
- projects[entity][download][branch] = "7.x-1.x"
- 
- projects[entity_translation][type] = "module"
- projects[entity_translation][download][type] = "git"
- projects[entity_translation][download][url] = "http://drupalcode.org/project/entity_translation.git"
- projects[entity_translation][download][branch] = "master"
- 
- projects[pathauto][type] = "module"
- projects[pathauto][download][type] = "git"
- projects[pathauto][download][url] = "http://drupalcode.org/project/pathauto.git"
- projects[pathauto][download][branch] = "7.x-1.x"
- 
- projects[token][type] = "module"
- projects[token][download][type] = "git"
- projects[token][download][url] = "http://drupalcode.org/project/token.git"
- projects[token][download][branch] = "7.x-1.x"
- 
- 
  
  projects[admin_menu][type] = "module"
  projects[admin_menu][download][type] = "git"

@@ -65,15 +65,4 @@ function i18n_profile_install() {
     'locale-browser' => -7,
     'language-default' => -6,
   ));
-
-  // Enable field translations
-  variable_set('entity_translation_entity_types', array(
-    'node' => 'node',
-  ));
-
-  // Enable title replacement for all node bundles.
-  $bundles = field_info_bundles('node');
-  foreach ($bundles as $bundle => $bundle_info) {
-    title_field_replacement_toggle('node', $bundle, 'title');
-  }
 }
