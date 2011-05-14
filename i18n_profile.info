@@ -34,14 +34,9 @@ files[] = i18n_profile.profile
 
 dependencies[] = translation
 dependencies[] = locale
-dependencies[] = token
 dependencies[] = variable
 
 dependencies[] = i18n
-dependencies[] = title
-dependencies[] = entity
-dependencies[] = entity_translation
-dependencies[] = pathauto
 
 dependencies[] = admin_menu
 dependencies[] = devel
