@@ -49,6 +49,11 @@ core = 7.x
  projects[entity_translation][download][url] = "http://drupalcode.org/project/entity_translation.git"
  projects[entity_translation][download][branch] = "master"
  
+ projects[entitycache][type] = "module"
+ projects[entitycache][download][type] = "git"
+ projects[entitycache][download][url] = "http://drupalcode.org/project/entitycache.git"
+ projects[entitycache][download][branch] = "7.x-1.x"
+ 
  projects[pathauto][type] = "module"
  projects[pathauto][download][type] = "git"
  projects[pathauto][download][url] = "http://drupalcode.org/project/pathauto.git"

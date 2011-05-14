@@ -38,9 +38,12 @@ dependencies[] = token
 dependencies[] = variable
 
 dependencies[] = i18n
+dependencies[] = i18n_string
+dependencies[] = i18n_field
 dependencies[] = title
 dependencies[] = entity
 dependencies[] = entity_translation
+dependencies[] = entitycache
 dependencies[] = pathauto
 
 dependencies[] = admin_menu
